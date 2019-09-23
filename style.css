@@ -36,7 +36,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
 	text-align: left;
-	color: white;
+	color: rgb(0, 83, 207);
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -56,8 +56,8 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #f2f2f2; /* Change the color to looks like Berea Background */
-	color: black;
+	background: #d4131300; /* Change the color to looks like Berea Background */
+	color: rgb(0, 0, 0);
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
@@ -86,4 +86,8 @@ div.section {
 	height: 100%;
 	margin-bottom:1.5em;
 	margin-right: 1em;
+}
+
+.button:hover {
+	background-color: aqua
 }
